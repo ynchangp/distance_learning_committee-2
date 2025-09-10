@@ -1,0 +1,29 @@
+# ✅ FastAPI 웹 프레임워크
+fastapi==0.110.0
+uvicorn==0.29.0
+
+# ✅ 엑셀 파일 처리
+openpyxl==3.1.2
+pandas==2.2.1
+
+# ✅ 번역 기능
+googletrans==4.0.0rc1
+
+# ✅ 데이터 모델링 및 검증
+pydantic==2.6.4
+
+# ✅ 파일 업로드 및 비동기 처리
+python-multipart==0.0.6
+aiofiles==23.2.1
+
+# ✅ HTTP 요청 및 외부 API 연동
+requests==2.31.0
+
+# ✅ CORS 설정 (React 프론트엔드 연동 시 필수)
+fastapi[all]==0.110.0
+
+# ✅ 정적 파일 제공 (React 빌드 결과 제공용)
+starlette==0.37.2
+
+# ✅ 테스트
+pytest==8.1.1
