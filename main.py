@@ -7,3 +7,5 @@ app = FastAPI()
 @app.get("/")
 def read_root():
     return {"message": "KDI Distance Learning Committee App is running!"}
+
+
